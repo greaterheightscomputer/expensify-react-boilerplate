@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;   //this line of code help us allocate the proper sizing to all our input components
+}
+
+html {
+    font-size: 62.5%;  //setting the font-size to 62.5% of it current size. 16px * .625 = 10px 
+}
+
+body {    
+    color: $dark-grey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;  //10px * 1.6 = 16px    
+    line-height: 1.6;
+}
+
+button {  
+    cursor: pointer;   //class sudo code
+}
+
+button:disabled {
+    cursor: default;   //class sudo code
+}
+
+.is-active {
+    font-weight: bold;
+}
